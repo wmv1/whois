@@ -1,0 +1,5 @@
+<%= form_tag("whois/show", method: "get") do %>
+  <%= label_tag(:dominio, "Domínio") %>
+  <%= text_field_tag(:dominio) %>
+  <%= submit_tag("Whois") %>
+<% end %>

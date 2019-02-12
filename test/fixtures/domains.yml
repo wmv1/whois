@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  domain_name: MyString
+  domain_status: MyString
+  expires_on: MyString
+  name_servers: MyString
+
+two:
+  domain_name: MyString
+  domain_status: MyString
+  expires_on: MyString
+  name_servers: MyString
