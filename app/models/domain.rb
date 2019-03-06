@@ -30,6 +30,7 @@ attr_accessor :domain_name, :domain_status, :expires_on, :name_servers
    @domain_status = d['status']
    @expires_on = d['expires'].gsub(/(\d{4})(\d{2})(\d{2})/, '\1-\2-\3')
    @name_servers = d['nserver']
+   @document = d['ownerid']
    end
 
  end
